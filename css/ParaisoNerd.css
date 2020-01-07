@@ -1,0 +1,297 @@
+.jumbotron{
+	height:160px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 0;
+	background-size: 100% 100%;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#jbc{
+	-webkit-align-content: center;
+    align-content: center;
+}
+.centrar{
+	margin-left:30%;
+}
+.navbar-inverse {
+    background-image: linear-gradient(to bottom,aqua 0,#004080 100%);
+}
+.navbar{
+	border: 0px;
+	border-style: none;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+.NavFijo{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width:100%;
+}
+.navbar-inverse 
+.navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.open>a{
+	background-image: linear-gradient(to bottom,#313131 0,#111111 100%);
+	height: 60px;
+	padding-top: 20px;
+}
+.navbar-nav>li>a {
+	padding-top:20px;
+}
+a.navbar-brand {
+	padding-top:10px;
+}
+.navbar-form{
+	padding-top: 5px;
+}
+
+#inicio,#juegos,#series,#peliculas,#tecnologia,#randommode,#registro,#iniciarsesion{
+	color:white;
+}
+.font1{
+	font-family: 'Press Start 2P', cursive;
+}
+.font2{
+	font-family: 'Bangers', cursive;
+}
+.font3{
+	font-family: 'Exo', sans-serif;
+	font-size:16px;
+}
+.font4{
+	font-family: 'Julius Sans One', sans-serif;
+}
+.font5{
+	font-family: 'Marvel', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+.font6{
+	font-family: 'Play', sans-serif;
+}
+.thumbnail{
+	background-color:black;
+	border-radius:0px;
+	border-style:solid;
+	padding:1px;
+}
+.thumbnail .vistaprevia{
+	background-color:silver;
+	padding-top:2px;
+}
+.seccioninicio{
+	background-color: blue;
+	width:100%;
+	
+}
+.seccionjuegos{
+	background-color: red;
+	width:100%;
+	padding-top:20px;
+}
+.seccionseries{
+	background-color: green;
+	width:100%;
+	padding-top:20px;
+}
+.seccionpeliculas{
+	background-color: yellow;
+	width:100%;
+	padding-top:20px;
+}
+.secciontecnologia{
+	background-color: black;
+	width:100%;
+	padding-top:20px;;
+}
+.contenido{
+	background-color: black;
+	width:100%;
+	padding: 20px;
+}
+.contenedordestacados{
+	background-color:transparent;
+	background-image: linear-gradient(to left,aqua 0,#004080 100%);
+	padding:30px;
+	border:solid;
+	border-color:white;
+	border-width:1px;
+	border-radius:3px;
+	margin-top:10px;
+}
+.contendorsidebarinicio{
+	background-image: linear-gradient(to right,aqua 0,#004080 100%);
+	margin-top: 20px;	
+	border:solid;
+	border-width:1px;
+	border-radius:3px;
+}
+.destacados{
+	padding:0px;
+
+}
+.contenedorimgsecciones{
+	padding-left:15px;
+	background-color:transparent;
+	padding-right:15px;
+	padding-bottom: 15px;
+}
+.descripcionnotica>h3{
+	color:white;
+	text-align: center;
+	border-bottom: 1px;
+	border-bottom-color:white;
+	border-bottom-style: solid;
+	margin: 5px;
+}
+.descripcionnotica>p{
+	color:white;
+	padding: 5px;
+	font-family: 'Marvel', sans-serif;
+	font-size:18px;
+	margin: 0px;
+}
+#parrafo{
+	font-family: 'Marvel', sans-serif;
+	color:white;
+	font-size:18px;
+	padding: 5px;
+	margin-bottom:0px;
+}
+.descripcionnotica{
+	background-color:transparent;
+	border-radius: 2px;
+	border-color:white; 
+	border:solid 1px;
+	
+}
+.descripcion>p{
+	color:white;
+	font-size: 20px;
+	
+}
+.comentario{
+	background-color:red;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:20px;
+	border:solid;
+	border-color:white;
+	border-width:1px;
+	border-radius:3px;
+}
+.video{
+	background-color:transparent;
+	margin-left:0px;
+	margin-right:0px;
+	border-radius: 2px;
+	margin-top:20px;
+}
+.media{
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+}
+.media-body>h5,.media-body>p{
+	color:white;
+	font-family: 'Play', sans-serif;
+	font-size:14px;
+}
+footer{
+	height:80px;
+	background-image: linear-gradient(to bottom,aqua 0,#004080 100%);
+	border-radius:5px;
+	bottom:0;
+}
+.posicion{
+	width:40%;
+	padding-top: 30px;
+}
+.posicion>p{
+	color:white;
+	font-family: 'Press Start 2P', cursive;
+}
+.seccionesfooter{
+	width:60%;
+	padding-top: 30px;
+}
+.seccionesfooter>ul>li{
+	float:left;
+	margin-left:40px;
+	list-style:none;
+	font-family: 'Bangers', cursive;
+}
+.masnoticias{
+	background-image: linear-gradient(to right,navy 0,#0080FF 100%);
+	border:solid;
+	border-width:1px;
+	border-radius:3px;
+	padding-bottom: 30px;
+	margin-top:20px;
+}
+.imginteres{
+	height:200px;
+	width: 400px;
+}
+.imgsecciones{
+
+}
+.contenidosecciones{
+	padding:20px;
+	border:solid;
+	border-color:white;
+	border-width:1px;
+	border-radius:3px;
+	margin-top:10px;
+}
+.sidebarsecciones{
+	padding:20px;
+	border:solid;
+	border-color:white;
+	border-width:1px;
+	border-radius:3px;
+	margin-top:10px;
+}
+.logincomentario{
+	padding-bottom: 10px;
+	padding-top:10px;
+	margin-top: 20px;
+	border:solid;
+	border-color:white;
+	border-width:1px;
+	border-radius:3px;	
+}
+/* Calificacion estrellas*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}

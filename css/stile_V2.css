@@ -1,0 +1,272 @@
+body{
+	background-image:url("../imgs/BGHini5.jpg");
+
+}
+.jumbotron{
+	background-image: url("../imgs/BGH2ini.jpg");
+	background-size: contain, cover;
+	background-repeat: repeat;
+	overflow: hidden;
+	margin-bottom:0px;
+}
+.jumbotron>h1{
+	text-align:center;
+}
+.navbar-inverse {
+   background-color:transparent;
+	margin-bottom:5px;
+}
+.navbar{
+	border: 0px;
+	border-style: none;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+.navbar-nav>li>a {
+	padding-top:15px;
+}
+a.navbar-brand {
+	padding-top:5px;
+}
+.navbar-form{
+	padding-top: 5px;
+}
+.font1{
+	font-family: 'Press Start 2P', cursive;
+}
+.font2{
+	font-family: 'Bangers', cursive;
+}
+.font3{
+	font-family: 'Exo', sans-serif;
+	font-size:16px;
+}
+.font4{
+	font-family: 'Julius Sans One', sans-serif;
+}
+.font5{
+	font-family: 'Marvel', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+.font6{
+	font-family: 'Play', sans-serif;
+}
+.thumbnail{
+	background-color:transparent;
+	border-radius:0px;
+	border-style:solid;
+	padding:1px;
+}
+.thumbnail .vistaprevia{
+	background-color:black;
+	padding-top:2px;
+}
+.media-body{
+	background-color:#2C2C2C;
+	margin-left:0px;
+	padding:5px;
+}
+.media-left{
+	padding-right:0px;
+}
+.seccion{
+	background-color:gray;
+	margin-top:20px;
+	border-radius:5px;
+}
+.seccioninicio{
+	background-color: ;
+}
+.seccionjuegos{
+	background-color: ;
+
+}
+.Inicionoticias{
+	color:white;
+}
+
+.seccionseries{
+	background-color: ;
+
+}
+.seccionpeliculas{
+	background-color: ;
+	
+}
+.secciontecnologia{
+	background-color:;	
+}
+.contenedordestacados{
+	background-color:transparent;
+	margin-top:20px;
+}
+.contendorsidebarinicio{
+	margin-top: 20px;	
+	
+}
+.destacados{
+
+}
+.posicionbuscar{
+	position:center; 
+}
+.contenido{
+	padding:20px;
+}
+.contenedorimgsecciones{
+	padding-left:15px;
+	background-color:transparent;
+	padding-right:15px;
+	padding-bottom: 15px;
+}
+.descripcionnoticiapelis>h3{
+	color:white;
+	text-align: center;
+	margin-top:5px;
+}
+.descripcionnoticia>h3{
+	color:white;
+	
+	margin: 5px;
+}
+.descripcionnoticia>ul{
+	color:white;
+	font-family: 'Marvel', sans-serif;
+	font-size:17px;
+	margin: 0px;
+	list-style:none;
+	padding-left:0px;
+}
+.descripcionnoticiapelis>ul{
+	color:white;
+	font-family: 'Marvel', sans-serif;
+	font-size:17px;
+	margin: 0px;
+	list-style:none;
+	padding-left:0px;
+}
+#parrafo{
+	font-family: 'Marvel', sans-serif;
+	color:white;
+	font-size:17px;
+	margin-bottom:0px;
+}
+.descripcionnotica>p{
+	color:white;
+	
+}
+.descripcion{
+	color:white;
+	font-size: 20px;
+	font-family: 'Marvel', sans-serif;
+}
+.descripcion>p{
+	color:white;
+	font-size: 20px;
+	
+}
+.comentario{
+	
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:20px;
+	
+}
+.video{
+	background-color:transparent;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:20px;
+}
+.media{
+	
+}
+.media-body>h5,.media-body>p{
+	color:white;
+	font-family: 'Play', sans-serif;
+	font-size:14px;
+}
+footer{
+	height:80px;
+	background-color:#292929;
+	border-radius:5px;
+	bottom:0;
+	color:white;
+}
+.posicion{
+	width:40%;
+	padding-top: 30px;
+}
+.posicion>p{
+	color:white;
+	font-family: 'Press Start 2P', cursive;
+}
+.seccionesfooter{
+	width:60%;
+	padding-top: 30px;
+}
+.seccionesfooter>ul>li{
+	float:left;
+	margin-left:40px;
+	list-style:none;
+	font-family: 'Bangers', cursive;
+}
+
+.imgsecciones{
+
+}
+.contenidosecciones{
+	padding:20px;
+	margin-top:20px;
+}
+.sidebarsecciones{
+	padding:20px;
+	margin-top:20px;
+	border-left-color:white;
+	border-left-style:solid;
+	border-left-width:1px;
+
+}
+.logincomentario{
+	padding-bottom: 10px;
+	padding-top:10px;
+	margin-top: 20px;
+}
+/* Calificacion estrellas*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: black;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+.pagination li a{
+	background-color:#292929;
+	color:gray;
+}
